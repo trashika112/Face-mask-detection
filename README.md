@@ -1,4 +1,4 @@
-Absolutely! Here’s a complete, copy-paste-ready README.md for your GitHub repo, fully formatted and ready to go with your Kaggle dataset link. You can directly paste this into VS Code or GitHub.
+
 
 # 😷 Face Mask Detection Web App
 
@@ -47,26 +47,34 @@ The dataset used for training is available on Kaggle:
 ```bash
 git clone https://github.com/yourusername/face-mask-detection.git
 cd face-mask-detection
-Create a virtual environment (optional but recommended):
+
+2.Create a virtual environment (optional but recommended):
 python -m venv venv
 # Linux / Mac
 source venv/bin/activate
 # Windows
 venv\Scripts\activate
-Install dependencies:
+
+3.Install dependencies:
 pip install -r requirements.txt
-Place your trained model file mask_detector.h5 in the project root folder.
-🚀 Running the App
+
+4.Place your trained model file mask_detector.h5 in the project root folder.
+
+##🚀 Running the App
 python app.py
+
 A Gradio interface will open in your browser.
 Upload any image to see the prediction.
-🧾 Example
+
+##🧾 Example
 
 Upload an image and get output like:
 
 😷 Mask (98.23%)
 ❌ No Mask (1.77%)
-📦 Project Structure
+
+##📦 Project Structure
+
 face-mask-detection/
 │
 ├── app.py                # Gradio app
